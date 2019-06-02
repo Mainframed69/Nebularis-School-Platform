@@ -1,2 +1,0 @@
-Beta Stage 
-Developing Stage
