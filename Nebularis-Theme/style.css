@@ -1,0 +1,606 @@
+/*!
+Theme Name: Nebularis School Platform
+Theme URI: https://www.qriosity.ml;
+Author: Ronal Lara
+Author URI: https://www.qriosity.ml
+Description: Tema multirfincional para escuelas online y plataformas de control escolar.
+Version: 1.0.1
+License: MIT Lincense
+License URI: 
+Text Domain: nebularis-platform
+Tags: blog, two-columns, right-sidebar, footer-widgets, custom-background, custom-header, custom-menu, featured-images, threaded-comments, translation-ready, full-width-template, education, theme-options, custom-logo, e-commerce, one-column, post-formats
+
+*/
+
+a{
+    color: #79B530;
+}
+
+.site-header.header-two .header-top .container:after{
+    display: none;
+}
+
+.site-header.header-two .header-top .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.site-header.header-two .header-top .secondary-nav{
+    float: none;
+    display: block;
+    padding: 0;
+}
+
+.site-header.header-two .header-top .secondary-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: none;
+    font-size: 14px;
+    line-height: 17px;
+    position: unset;
+    border-top: 0;
+}
+
+.site-header.header-two .header-top .secondary-nav ul li{
+    border: 0;
+    position: relative;
+    margin-right: 20px;
+}
+
+.site-header.header-two .header-top .secondary-nav ul li:last-child{
+    margin-right: 0;
+}
+
+.site-header.header-two .header-top .secondary-nav ul li a{
+    color: #000;
+    padding: 0;
+}
+
+.site-header.header-two .header-top .secondary-nav ul ul{
+    position: absolute;
+    top: 100%;
+    left: -15px;
+    width: 240px;
+    background: #f8f8f8;
+    padding-top: 15px;
+    display: none;
+}
+
+.site-header.header-two .header-top .secondary-nav ul li:hover > ul{
+    display: block;
+}
+
+.site-header.header-two .header-top .secondary-nav ul ul ul{
+    left: 100%;
+    top: 0;
+    padding-top: 0;
+}
+
+.site-header.header-two .header-top .secondary-nav ul ul li a{
+    padding: 10px 15px;
+}
+
+.site-header.header-two .header-top .top-links{
+    margin: 0;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.site-header .social-networks {
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-size: 0;
+    line-height: 0;
+}
+
+.site-header .social-networks li {
+    display: inline-block;
+    margin-left: 14px;
+    list-style: none;
+    color: #7f7f7f;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.site-header .social-networks li a{
+    color: #79B530;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.site-header .social-networks li a:hover {
+    color: #7f7f7f;
+}
+
+.site-header.header-two .header-top {
+	background: #f8f8f8;
+	padding: 16px 0;
+}
+
+.site-header.header-two .main-navigation {
+	float: left;
+	width: auto;
+}
+
+.site-branding {
+    float: left;
+    display: flex;
+    align-content: center;
+}
+
+.site-branding .custom-logo{
+    margin-right: 15px;
+}
+
+.site-branding .site-title a{
+    font-size: 26px;
+    line-height: 29px;
+    color: #79B530;
+}
+
+/*.site-branding*/
+
+.site-header .apply-btn {
+    border: 2px solid #79B530;
+    color: #79B530;
+    padding: 15px 32px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 10px;
+    transition: all 0.2s ease 0s;
+}
+
+.site-header .apply-btn:hover, 
+.site-header .apply-btn:focus {
+    background: #79B530;
+    color: #fff;
+}
+
+.site-header.header-two .form-section {
+	float: right;
+	position: relative;
+	padding: 16px 0;
+}
+
+.site-header.header-two .form-section svg {
+	color: #fff;
+    padding-left: 0;
+}
+
+.site-header.header-two .form-section .example {
+	position: absolute;
+	display: none;
+	top: 100%;
+	right: 0;
+	z-index: 999;
+	background: #3B9AD7;
+}
+
+.site-header.header-two .form-section .example form {
+	width: 240px;
+	height: 40px;
+	padding: 5px 5px;
+	box-shadow: 0 1px 0 0 #3B9AD7;
+	background: #3B9AD7;
+	border: 0;
+}
+
+.site-header.header-two .form-section .example form input[type="search"] {
+	height: 100%;
+	padding: 0 10px;
+	background: none;
+	width: 75%;
+	float: left;
+	color: #fff;
+}
+
+.site-header.header-two .form-section .example form input[type="submit"] {
+	float: left;
+	width: 35px;
+	background: rgba(0, 0, 0, 0) url("images/search-icon.png") no-repeat scroll 12px 5px;
+	border: 0;
+    padding: 0;
+    box-shadow: none;
+    text-indent: 100%;
+}
+
+.site-header.header-two .info-box {
+	float: right;
+	/*width: 200px;*/
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 300;
+	margin-right: 30px;
+	color: #747474;
+	margin-top: 10px;
+}
+
+.site-header.header-two .info-box svg {
+	display: inline-block;
+	color: #79B530;
+	font-size: 30px;
+	margin-right: 16px;
+	line-height: 32px;
+    vertical-align: middle;
+}
+
+.site-header.header-two .info-box span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.site-header.header-two .info-box span a {
+	color: #747474;
+	display: block;
+}
+
+.site-header.header-two .info-box span a:hover {
+	color: #79B530;
+}
+
+.site-header.header-two #mobile-header {
+	padding: 20px 0;
+	float: left;
+}
+
+.site-header.header-two #mobile-header svg {
+	color: #fff;
+}
+
+.site-header.header-two .form-section .example form input[type="submit"] {
+	width: 30px;
+}
+
+.site-header .header-bottom{
+    background: #79B530;
+}
+
+.main-navigation ul ul{
+    background: #79B530;
+}
+
+.site-header.header-two .form-section .example form{
+    background: #79B530;
+    box-shadow: 0 1px 0 0 #79B530;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner .banner-text{
+    z-index: 1;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+}
+
+.banner .banner-text .text{
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.banner img{
+    width: 100%;
+    height: 692px;
+    object-fit: cover;
+}
+
+.banner .banner-text .title,
+.banner .banner-text .text span{
+    font-size: 50px;
+    line-height: 62px;
+    margin: 0 0 15px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.banner .banner-text .btn-holder .btn-free-inquiry,
+.banner .banner-text .text .course-link{
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    border: 2px solid #79B530;
+    background: #79B530;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 23px;
+    margin: 0 7px;
+    font-weight: 400;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.banner .banner-text .btn-holder .btn-free-inquiry:hover,
+.banner .banner-text .btn-holder .btn-free-inquiry:focus,
+.banner .banner-text .text .course-link:hover,
+.banner .banner-text .text .course-link:focus{
+    text-decoration: none;
+    background: none;
+}
+
+.banner .banner-text .btn-holder .btn-view-service{
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 23px;
+    margin: 0 7px;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.banner .banner-text .btn-holder .btn-view-service:hover,
+.banner .banner-text .btn-holder .btn-view-service:focus{
+    text-decoration: none;
+    background: #fff;
+    color: #79B530;
+}
+
+.video-banner .wp-custom-header {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video-banner iframe,
+.video-banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .wp-custom-header-video-button{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    font-size: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.banner .wp-custom-header-video-play:after{
+    content: '\f04b';
+    font-family: 'FontAwesome';
+    color: #fff;
+    font-size: 30px;
+}
+
+.banner .wp-custom-header-video-pause:after{
+    content: '\f04c';
+    font-family: 'FontAwesome';
+    color: #fff;
+    font-size: 30px;
+}
+
+.thumb-text li .box-1{
+    background: #4886FF;
+}
+
+.thumb-text li .box-2{
+    background: #FF6F6F;
+}
+
+.thumb-text li .box-3{
+    background: #B5D56A;
+}
+
+.thumb-text li .box-4{
+    background: #F88147;
+}
+
+.featured-courses ul li .image-holder .description .learn-more{
+    border: 2px solid #79B530;
+    background: #79B530;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.featured-courses ul li .image-holder .description .learn-more:hover,
+.featured-courses ul li .image-holder .description .learn-more:focus{
+    background: none;
+    color: #79B530;
+}
+
+.theme .theme-description .apply:hover,
+.theme .theme-description .apply:focus{
+    background: #79B530;
+    border-color: #79B530;
+}
+
+.choose-us .col h3 a:hover,
+.choose-us .col h3 a:focus{
+    color: #79B530;
+}
+
+.latest-events .learn-more{
+    background: #79B530;
+    border: 2px solid #79B530;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.latest-events .learn-more:hover,
+.latest-events .learn-more:focus{
+    background: none;
+}
+
+.search-section{
+    background: #79B530;
+}
+
+.search-section form input[type="submit"]{
+    color: #79B530;
+}
+
+#crumbs{
+    color: #79B530; 
+}
+
+.widget-area .widget form input[type="submit"],
+.page-header form input[type="submit"]{
+    background-color: #79B530;
+}
+
+#primary .read-more{
+    border: 2px solid #79B530;
+    background: #79B530;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+#primary .read-more:hover,
+#primary .read-more:focus{
+    background: none;
+    color: #79B530;
+}
+
+.navigation.pagination .page-numbers.current,
+.navigation.pagination .page-numbers:hover,
+.navigation.pagination .page-numbers:focus{
+    border-color: #79B530;
+    color: #79B530;
+}
+
+.error404 .not-found span{
+    color: #79B530;
+}
+
+.error404 .homepage{
+    background: #79B530;
+    border: 2px solid #79B530;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.error404 .homepage:hover,
+.error404 .homepage:focus{
+    background: none;
+    color: #79B530;
+}
+
+.welcome-note .col h3 {
+    color: #79B530;
+}
+
+#mobile-header-2 {
+    display: block;
+}
+
+@media only screen and (min-width: 991.5px) {
+    #mobile-header-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    #top-navigation{
+        display: none;
+    }
+
+    .site-branding{
+        width: 100%;
+    }
+
+    .site-header.header-two .info-box{
+        float: left;
+    }
+
+    .thumb-text li{
+        width: 100%;
+    }
+
+    .mobile-header .apply-btn a{
+        border-color: #79B530;
+        color: #79B530;
+    }
+
+    .mobile-header .apply-btn a:hover,
+    .mobile-header .apply-btn a:focus{
+        background: #79B530;
+    }
+
+    .mobile-menu .main-navigation ul li a:hover,
+    .mobile-menu .main-navigation ul li a:focus,
+    .mobile-menu .main-navigation ul li:hover > a,
+    .mobile-menu .main-navigation ul li:focus > a,
+    .mobile-menu .main-navigation ul .current-menu-item > a,
+    .mobile-menu .main-navigation ul .current-menu-ancestor > a,
+    .mobile-menu .main-navigation ul .current_page_item > a,
+    .mobile-menu .main-navigation ul .current_page_ancestor > a,
+    .mobile-menu .secondary-nav ul li a:hover,
+    .mobile-menu .secondary-nav ul li a:focus,
+    .mobile-menu .secondary-nav ul li:hover > a,
+    .mobile-menu .secondary-nav ul li:focus > a,
+    .mobile-menu .secondary-nav ul .current-menu-item > a,
+    .mobile-menu .secondary-nav ul .current-menu-ancestor > a,
+    .mobile-menu .secondary-nav ul .current_page_item > a,
+    .mobile-menu .secondary-nav ul .current_page_ancestor > a,
+    .mobile-menu .contact-info a:hover,
+    .mobile-menu .contact-info a:focus{
+        color: #79B530;
+    }
+
+    .mobile-menu .social-networks li a:hover,
+    .mobile-menu .social-networks li a:focus{
+        background: #79B530;
+        border-color: #79B530;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .site-header .apply-btn{
+        float: left;
+    }
+
+    .site-header.header-two .info-box{
+        width: 100%;
+    }
+
+    .site-header .form-section{
+        width: auto;
+    }
+}

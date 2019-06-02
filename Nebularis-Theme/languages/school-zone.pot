@@ -1,0 +1,179 @@
+# <!=Copyright (C) 2019 Qriosity
+# This file is distributed under the MIT.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Qriosity: Plataforma Escolar\n"
+"Report-Msgid-Bugs-To: www.qriosity.ml"
+"POT-Creation-Date: 2019-05-16 07:17:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: footer.php:52
+msgid "Copyright &copy;"
+msgstr ""
+
+#: footer.php:52
+msgid "Y"
+msgstr ""
+
+#: footer.php:56
+msgid "Nebularis | Developed By"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ronal Lara"
+msgstr ""
+
+#: footer.php:58
+msgid "Powered by %s."
+msgstr ""
+
+#: footer.php:58
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:46
+msgid "Default Header Image"
+msgstr ""
+
+#: functions.php:143
+msgid "Demo and Documentation"
+msgstr ""
+
+#: functions.php:154
+msgid "Theme Documentation"
+msgstr ""
+
+#: functions.php:154 functions.php:156 functions.php:158 functions.php:160
+#: functions.php:162
+msgid "Click here"
+msgstr ""
+
+#: functions.php:156
+msgid "Theme Demo"
+msgstr ""
+
+#: functions.php:158
+msgid "Theme info"
+msgstr ""
+
+#: functions.php:160
+msgid "Support Ticket"
+msgstr ""
+
+#: functions.php:162
+msgid "More WordPress Themes"
+msgstr ""
+
+#: functions.php:165
+msgid "About School Zone"
+msgstr ""
+
+#: functions.php:176
+msgid "Header Settings"
+msgstr ""
+
+#: functions.php:185
+msgid "Banner Section"
+msgstr ""
+
+#: functions.php:228
+msgid "Address"
+msgstr ""
+
+#: functions.php:253
+msgid "CTA Label"
+msgstr ""
+
+#: functions.php:277
+msgid "CTA Link"
+msgstr ""
+
+#: functions.php:294
+msgid "Banner Options"
+msgstr ""
+
+#: functions.php:295
+msgid "Choose banner as static image/video."
+msgstr ""
+
+#: functions.php:298
+msgid "Disable Banner Section"
+msgstr ""
+
+#: functions.php:299
+msgid "Static/Video CTA Banner"
+msgstr ""
+
+#: functions.php:300
+msgid "Post Banner"
+msgstr ""
+
+#: functions.php:311 functions.php:511 sections/section-slider.php:7
+msgid "Better Education for a Better World"
+msgstr ""
+
+#: functions.php:321
+msgid "Banner Title"
+msgstr ""
+
+#: functions.php:338 functions.php:524 sections/section-slider.php:8
+msgid ""
+"Maecenas perspiciatis eleifend mollitia esse etiam rem harum? Sunt "
+"incididunt, sollicitudin earum anim quidem laoreet nibh, facilisis eiusmod!"
+msgstr ""
+
+#: functions.php:348
+msgid "Banner Description"
+msgstr ""
+
+#: functions.php:365 functions.php:537 sections/section-slider.php:9
+msgid "Get Started Now"
+msgstr ""
+
+#: functions.php:375
+msgid "Link One Label"
+msgstr ""
+
+#: functions.php:401
+msgid "Link One Url"
+msgstr ""
+
+#: functions.php:411 functions.php:550 sections/section-slider.php:11
+msgid "Enquiry"
+msgstr ""
+
+#: functions.php:421
+msgid "Link Two Label"
+msgstr ""
+
+#: functions.php:447
+msgid "Link Two Url"
+msgstr ""
+
+#: sections/section-slider.php:16
+msgid "Read More"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "School Zone"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://raratheme.com/wordpress-themes/school-zone/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Online Multifunctional School platform "
+"https://qriosity.ml"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://qriosity.ml/"
+msgstr ""
